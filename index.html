@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional portfolio of Manan Pareek, a passionate IT professional and software developer specializing in web and desktop applications." />
+  <meta name="author" content="Manan Pareek" />
+  <title>Manan Pareek | Software Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #f9f9f9, #f1f4f8);
+      color: #212529;
+      line-height: 1.7;
+      scroll-behavior: smooth;
+    }
+    h1, h2, h3 {
+      font-weight: 700;
+    }
+    h2 {
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      border-left: 5px solid #0d6efd;
+      padding-left: 12px;
+    }
+    section {
+      padding: 60px 0;
+    }
+    .badge {
+      font-size: 0.9rem;
+      padding: 10px 18px;
+      border-radius: 50px;
+      font-weight: 600;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.05);
+      text-transform: uppercase;
+    }
+    .project-card {
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-left 0.3s ease;
+      border-left: 5px solid transparent;
+      background: #ffffff;
+    }
+    .project-card:hover {
+      transform: translateY(-8px);
+    }
+    .sticky-top { z-index: 1020; }
+    footer {
+      background: #0d1117;
+      color: #fff;
+      padding: 40px 0;
+    }
+    footer a { color: #ffffff; }
+    footer a:hover { color: #ffc107; }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Manan Pareek</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="bg-dark text-white text-center py-5" id="about">
+  <div class="container" data-aos="fade-up">
+    <h1 class="display-4 fw-bold">Manan Pareek</h1>
+    <p class="lead">Software Developer | IT Professional</p>
+  </div>
+</header>
+
+<section class="container" id="skills" data-aos="fade-up">
+  <h2>Technical Skills</h2>
+  <div class="d-flex flex-wrap gap-2">
+    <span class="badge bg-primary">Java</span>
+    <span class="badge bg-secondary">C#</span>
+    <span class="badge bg-warning text-dark">PHP</span>
+    <span class="badge bg-success">HTML</span>
+    <span class="badge bg-info text-dark">CSS</span>
+    <span class="badge bg-danger">JavaScript</span>
+    <span class="badge bg-dark">C++</span>
+    <span class="badge bg-light text-dark">VB.NET</span>
+    <span class="badge bg-primary">.NET MAUI</span>
+    <span class="badge bg-success">MySQL</span>
+  </div>
+</section>
+
+<section class="container" id="projects" data-aos="fade-up">
+  <h2>Projects</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+        <a href="bank.html" style="text-decoration: none;">
+      <div class="card project-card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Bank Management System</h5>
+          <p class="card-text">PHP + MySQL banking app with account authentication and CRUD operations.</p>
+        </div>
+      </div>
+    </a>
+    </div>
+    <div class="col-md-4">
+        <a href="bakery.html" style="text-decoration: none;">
+      <div class="card project-card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Bakery Billing Software</h5>
+          <p class="card-text">Built in VB.NET for dynamic pricing and sales analytics with bill-hold feature.</p>
+        </div>
+      </div>
+    </a>
+    </div>
+    <div class="col-md-4">
+        <a href="event.html" style="text-decoration: none;">
+      <div class="card project-card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Event Management Console App</h5>
+          <p class="card-text">C++ console-based tool to plan and manage event schedules.</p>
+        </div>
+      </div>
+    </a>
+    </div>
+  </div>
+</section>
+
+<section class="container" id="experience" data-aos="fade-up">
+  <h2>Experience</h2>
+  <p><strong>Intern - Software Developer, Academic Hub</strong></p>
+  <ul>
+    <li>Contributed to ERP modules used by schools and colleges in Rajasthan.</li>
+    <li>Worked on transitioning apps from Xamarin.Forms to .NET MAUI.</li>
+    <li>Launched school website with responsive UI and backend integration.</li>
+  </ul>
+</section>
+
+<section class="bg-dark text-white text-center" id="contact" data-aos="fade-up">
+  <div class="container py-5">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:pareekmanan11@gmail.com">pareekmanan11@gmail.com</a></p>
+    <p>Phone: +91 6375074441</p>
+    <p>GitHub: <a href="https://github.com/Manan-01" target="_blank">Manan-01</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/manan-pareek-8b0368277/" target="_blank">LinkedIn Profile</a></p>
+  </div>
+</section>
+
+<footer class="text-center">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Manan Pareek. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
+
+</body>
+</html>
